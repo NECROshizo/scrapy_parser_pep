@@ -2,6 +2,7 @@
 # Проект асинхронный парсер PEP
 ## Технологии
 [![Python](https://img.shields.io/badge/-Python-464646?style=flat&logo=Python&logoColor=56C0C0&color=gray)](https://www.python.org/) [![Scrapy](https://img.shields.io/badge/-Scrapy-464646?style=flat&logoColor=56C0C0&color=gray)](https://scrapy.org/) 
+
 Полный список модулей, используемых в проекте, доступен в [requirements.txt](https://github.com/NECROshizo/scrapy_parser_pep/blob/main/requirements.txt)
 ## Линтеры
 [![Flake8](https://img.shields.io/badge/-flake8-464646?style=flat&logo=flake8&logoColor=56C0C0&color=gray)](https://flake8.pycqa.org/)
