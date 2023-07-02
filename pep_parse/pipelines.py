@@ -1,5 +1,5 @@
-from collections import Counter
 import csv
+from collections import Counter
 from datetime import datetime as dt
 from pathlib import Path
 
@@ -23,7 +23,8 @@ class PepParsePipeline:
             newline=''
         ) as file:
             writer = csv.writer(file)
-            writer.writerow(('Статус', 'Количество'))
-            writer.writerows((self.quantity_status.items()))
-            writer.writerow(('Total', sum(self.quantity_status.values())))
-            print(self.quantity_status.items())
+            writer.writerows(
+                ('Статус', 'Количество'),
+                *(self.quantity_status.items()),
+                ('Total', sum(self.quantity_status.values()))
+            )
